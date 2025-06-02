@@ -1,9 +1,12 @@
 {
-  "name": "native-modules",
+  "name": "@hershbergien/native-modules",
   "version": "2.1.0",
   "type": "module",
   "license": "MIT",
-  "repository": "juliangruber/native-modules",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:matthewh/native-modules.git"
+  },
   "description": "Report native modules used",
   "bin": {
     "native-modules": "index.js"
@@ -20,5 +23,8 @@
     "discovery-swarm": "^6.1.0",
     "prettier-standard": "^16.4.1",
     "standard": "^17.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
